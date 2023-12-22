@@ -1,0 +1,22 @@
+# Node Modules
+node_modules/
+
+# TypeScript compiled output
+/dist/
+
+# Cypress screenshots and videos
+cypress/screenshots/
+cypress/videos/
+
+# Environment variables
+.env
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+
+# OS generated files
+.DS_Store
+Thumbs.db
