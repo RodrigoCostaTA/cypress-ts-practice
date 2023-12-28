@@ -1,8 +1,7 @@
 describe('Product Details Page Tests', () => {
 
-    beforeEach(() => {
-        cy.visit('https://demo.nopcommerce.com/');
-        
+    beforeEach(() => {        
+        cy.visit('/')
         cy.fixture('productData.json').then((data) => {
             const notebook = data.notebook;
             cy.get('#small-searchterms').type(notebook);
